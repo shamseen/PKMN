@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.0" />
+    <PackageReference Include="Moq" Version="4.8.2" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
 
@@ -16,7 +19,9 @@
 
   <ItemGroup>
     <Folder Include="DataModels\" />
-    <Folder Include="ViewModels\" />
+    <Folder Include="DataLayer\" />
+    <Folder Include="Services\" />
+    <Folder Include="BusinessLayer\" />
     <Folder Include="Views\" />
   </ItemGroup>
 
