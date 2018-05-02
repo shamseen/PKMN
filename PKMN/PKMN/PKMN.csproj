@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataModels\" />
     <Folder Include="DataLayer\" />
     <Folder Include="Services\" />
     <Folder Include="BusinessLayer\" />
